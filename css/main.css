@@ -22,3 +22,20 @@ body{
 .navbar-collapse{
     justify-content: flex-end;
 }
+.d-flex{
+    color: #fff;
+    margin-top: 10px;
+    background-color: #35155D;
+}
+.contacts{
+    color: #fff;
+}
+.contacts:hover{
+    color: #8CABFF;
+}
+#copyright{
+    color: gray;
+}
+#map{
+    padding-right: 1%;
+}
