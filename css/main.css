@@ -7,14 +7,13 @@ body{
 .navbar{
     background: #35155D;
 }
+.nav-link{
+    margin-right: 1em !important;
+}
 .nav-link,
 .navbar-brand{
     color: #fff;
     cursor: pointer;
-}
-
-.nav-link{
-    margin-right: 1em !important;
 }
 .nav-link:hover{
     color: #4477CE;
@@ -35,7 +34,4 @@ body{
 }
 #copyright{
     color: gray;
-}
-#map{
-    padding-right: 1%;
 }
