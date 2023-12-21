@@ -1,0 +1,54 @@
+.home-top{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+#welcome{
+    position: absolute;
+    margin-top: -40%;
+
+}
+#welcome h2{
+    -webkit-text-stroke: 0.1vw black;
+    -webkit-text-fill-color: white;
+    font-size: 5vw;
+}
+#welcome h4{
+    -webkit-text-stroke: 0.05vw black;
+    -webkit-text-fill-color: white;
+    font-size: 2.5vw;
+}
+.home-news{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.judul{
+    font-size: 4vw;
+    margin-bottom: 5%;
+}
+.news{
+    color: white;
+    margin-top: 2%;
+    padding: 3%;
+    background-color: #301E67;
+    border-radius: 5px;
+}
+.news img{
+    width: 100%;
+}
+.vid{
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 5%;
+}
+.yt-embed{
+    position: relative;
+    overflow: hidden;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+.yt-embed iframe{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}

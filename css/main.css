@@ -1,11 +1,11 @@
 body{
     padding: 0;
     margin: 0;
-    background-color: #f2f6e9;
+    background-color: #fff;
 }
 
 .navbar{
-    background: #35155D;
+    background: #03001C;
 }
 .nav-link{
     margin-right: 1em !important;
@@ -16,7 +16,7 @@ body{
     cursor: pointer;
 }
 .nav-link:hover{
-    color: #4477CE;
+    color: #B6EADA;
 }
 .navbar-collapse{
     justify-content: flex-end;
@@ -24,7 +24,7 @@ body{
 .d-flex{
     color: #fff;
     margin-top: 10px;
-    background-color: #35155D;
+    background-color: #03001C;
 }
 .contacts{
     color: #fff;
