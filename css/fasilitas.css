@@ -5,6 +5,9 @@
     --third: #5B8FB9;
     --putih: #fff;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 /* Menu section*/
 .menu{
