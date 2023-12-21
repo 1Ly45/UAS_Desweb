@@ -5,6 +5,10 @@
     --third: #5B8FB9;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -72,6 +76,7 @@ nav{
 }
 .navbar .navbar-nav a:hover {
     color: var(--primary);
+    transition: color 0.3s ease-in-out;
 }
 
 .navbar .navbar-nav a::after{
@@ -109,6 +114,7 @@ nav{
 .row{
     background: var(--bg);
 }
+
 #contact{
     color: white;
 }
