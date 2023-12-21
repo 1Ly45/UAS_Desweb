@@ -1,0 +1,57 @@
+:root{
+    --bg: #03001C;
+    --primary: #5B8FB9;
+    --second: #301E67;
+    --third: #5B8FB9;
+    --putih: #fff;
+}
+
+/* Menu section*/
+.menu{
+    padding: 5rem 7% 1.4rem;
+    flex-wrap: wrap;
+}
+
+.menu h2{
+    text-align: center;
+    font-size: 2.6rem;
+    margin-bottom: 1rem;
+}
+
+.menu h3{
+    color: var(--third);
+    margin-bottom: 1rem;
+}
+.menu h2 span{
+    font-size: 3rem;
+    color: var(--third);
+}
+
+.menu p{
+    text-align: center;
+    max-width: 30rem;
+    margin: auto;
+    font-weight:100 ;
+    line-height: 1.6;
+    margin-top: 1rem;
+}
+.menu .row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+    justify-content: center;
+}
+.menu .row .menu-card{
+    text-align: center;
+    padding-bottom: 3rem;
+    flex: 0 0 calc(33.3333% - 20px); 
+    margin: 10px; 
+}
+
+.menu .row .menu-card img{
+    border-radius: 50%;
+    width: 80%;
+}
+.menu .row .menu-card .menu-card-title{
+    margin-top: 1rem auto 0.5rem;
+}
