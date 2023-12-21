@@ -1,0 +1,11 @@
+.navbar{
+    position: sticky;
+    background-color: #03001C;
+}
+.judul{
+    background-color: #301E67;
+    color: white;
+    padding-top: 5%;
+    font-size: 4vw;
+    padding-bottom: 5%;
+}

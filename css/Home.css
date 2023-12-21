@@ -9,7 +9,7 @@ html{
 }
 
 #welcome{
-    position: center;
+    position: absolute;
     margin-top: -40%;
 
 }
