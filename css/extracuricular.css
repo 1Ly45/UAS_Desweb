@@ -1,3 +1,6 @@
+main{
+    background-color: #B6EADA;
+}
 .navbar{
     position: sticky;
     background-color: #03001C;
@@ -22,7 +25,7 @@
 }
 .box:hover{
     margin-top: -0.1px;
-    background-color: #B6EADA;
+    background-color: #301E67;
 }
 .box .image{
     border-radius: 2%;

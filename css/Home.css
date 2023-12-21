@@ -1,3 +1,4 @@
+
 :root{
     --bg: #03001C;
     --primary: #5B8FB9;
@@ -9,6 +10,9 @@ html{
     scroll-behavior: smooth;
 }
 
+body{
+    background-color: #B6EADA;
+}
 
 .home-top{
     position: relative;
@@ -51,10 +55,15 @@ body{
     margin-bottom: 5%;
 }
 .judul{
+    margin-top: -4%;
+    background-color: #301E67;
+    color: white;
+    padding-top: 5%;
     font-size: 4vw;
-    margin-bottom: 5%;
+    padding-bottom: 5%;
 }
 .news{
+    height: 95%;
     color: white;
     margin-top: 2%;
     padding: 3%;
