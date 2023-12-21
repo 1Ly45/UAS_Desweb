@@ -1,3 +1,6 @@
+body{
+    background-color: #B6EADA;
+}
 .home-top{
     position: relative;
     text-align: center;
@@ -28,8 +31,12 @@ html{
     margin-bottom: 5%;
 }
 .judul{
+    margin-top: -4%;
+    background-color: #301E67;
+    color: white;
+    padding-top: 5%;
     font-size: 4vw;
-    margin-bottom: 5%;
+    padding-bottom: 5%;
 }
 .news{
     color: white;
