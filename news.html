@@ -17,6 +17,10 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div  class="navbar-logo">
+                </span><img src="asset/Logo.png" alt="Logo"  width="60px">
+                <h6 class="my-3 px-2">SMA Muhammadiyah Plus Salatiga</h6>
+            </div>
             <ul class="navbar-nav">
                 <li class="nav-item">
                     <a class="nav-link" href="index.html">HOME</a>
@@ -25,19 +29,19 @@
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">PROFILE</a>
                     <ul class="dropdown-menu">
                         <li>
-                            <a class="dropdown-item" href="#">Visi Misi</a>
+                            <a class="dropdown-item" href="visimisi.html">Visi Misi</a>
                         </li>
                         <li>
-                            <a class="dropdown-item" href="#">Our Team</a>
+                            <a class="dropdown-item" href="ourteam.html">Our Team</a>
                         </li>  
                         <li>
-                            <a class="dropdown-item" href="#">Facility</a>
+                            <a class="dropdown-item" href="fasilitas.html">Facility</a>
                         </li>  
                         <li>
-                            <a class="dropdown-item" href="#">Student Achievement</a>
+                            <a class="dropdown-item" href="achievement.html">Student Achievement</a>
                         </li>  
                         <li>
-                            <a class="dropdown-item" href="#">Extracurricular</a>
+                            <a class="dropdown-item" href="extracuricular.html">Extracurricular</a>
                         </li>            
                     </ul>
                 </li>
@@ -48,9 +52,12 @@
                     <a class="nav-link" href="news.html">NEWS</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">CONTACT</a>
+                    <a class="nav-link" href="kontak.html">CONTACT</a>
                 </li>
             </ul>
+            <div class="navbar-extra">
+                <a href="#" id="search"> <i data-feather="search"></i> </a>
+            </div>
         </div>
     </nav>
     <main>
@@ -72,34 +79,41 @@
     </main>
     <footer>
         <div class="row">
-            <div class="d-flex justify-content-center">
-                <img src="asset/map.png" height="150" width="170" class="px-1 my-3"> 
-                <div id="contact" class="">
-                    <h6>Contact School</h6>
-                    <div>
+            <div class="col-lg-6 col-md-6 col-sm-12 d-flex justify-content-center">
+                <img src="asset/map.png" style="width: 50%; height: 90% auto;" class="img-fluid px-4 my-3" alt="Responsive image"> 
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div id="contact" class="px-4 my-4">
+                    <h6 style="padding-bottom: 7px;">Contact School</h6>
+                    <div class="py-1">
                         <i class="fas fa-map-location-dot"></i>
                         <a href="#" class="contacts">Jalan KH. Ahmad Dahlan no.1 Salatiga</a>
                     </div> 
-                    <div>
+                    <div class="py-1">
                         <i class="fas fa-phone"></i>
                         <a href="#" class="contacts">+62 858-4275-9666</a>
                     </div>   
-                    <div>
+                    <div class="py-1">
                         <i class="fa-brands fa-youtube"></i>
                         <a href="" class="contacts">SMA MUHAMMADIYAH PLUS SALATIGA</a>
                     </div>
-                    <div>
+                    <div class="py-1">
                         <i class="fa-brands fa-instagram-square"></i>
                         <a href="#" class="contacts">smamuhammadiyahplus_</a>
                     </div>
-                    <div>
+                    <div class="py-1">
                         <i class="fa-brands fa-facebook-f"></i>
                         <a href="#" class="contacts">Smas Muhammadiyah Plus Salatiga </a>
                     </div>  
-            </div>  
+                </div>
+            </div>
         </div>
         <p class="text-center" id="copyright">copyright 2023 Muhammad Ilyas, Fatih Masrukhan </p>
     </footer>
+    <!--feather icon-->
+    <script>
+        feather.replace();
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>

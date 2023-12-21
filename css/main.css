@@ -37,7 +37,6 @@ nav{
     z-index: 9999;
     font-family: 'Poppins', sans-serif;
     color: #fff;
-    overflow: hidden;
 }
 @media only screen and (min-width: 1000px) {
     .navbar .navbar-logo{
