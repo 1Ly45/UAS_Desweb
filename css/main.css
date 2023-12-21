@@ -111,7 +111,7 @@ nav{
 .navbar-collapse{
     justify-content: flex-end;
 }
-.row{
+.foot{
     background: var(--bg);
 }
 
