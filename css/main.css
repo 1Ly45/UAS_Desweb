@@ -17,8 +17,12 @@ body{
     padding: 0;
     margin: 0;
     background-color: #fff;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
-
+nav{
+    max-width: 100%;
+}
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -33,19 +37,28 @@ body{
     z-index: 9999;
     font-family: 'Poppins', sans-serif;
     color: #fff;
+    overflow: hidden;
 }
+@media only screen and (min-width: 1000px) {
+    .navbar .navbar-logo{
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin-left: 2%;
+        max-width: 40%;
+    }
+}
+
 .navbar .navbar-logo{
-    margin-left: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center
 }
 .navbar .navbar-logo span{
     color: var(--primary);
 }
 
-.navbar.navbar-extra{
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    margin-left: 10rem;
-}
+
 .navbar .navbar-extra a{
     color: #fff;
     margin: 0 0.5rem;
@@ -85,30 +98,21 @@ body{
 .nav-link:hover{
     color: #B6EADA;
 }
-.nav-link:visited{
+.nav-link:active{
     color: var(--third);
+}
+.nav-link:visited{
+    color: white;
 }
 .navbar-collapse{
     justify-content: flex-end;
 }
-
-.d-flex{
-    color: #fff;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    background-color: #03001C;
+.row{
+    background: var(--bg);
 }
-.map{
-    margin-left: 15%;
+#contact{
+    color: white;
 }
-.contacts{
-    position: absolute;
-    
-    color: #fff;
-}
-.contacts:hover{
-    color: #8CABFF;
-}
-#copyright{
-    color: gray;
+#contact a{
+    color: white;
 }
