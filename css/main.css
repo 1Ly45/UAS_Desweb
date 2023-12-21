@@ -1,3 +1,18 @@
+:root{
+    --bg: #03001C;
+    --primary: #5B8FB9;
+    --second: #301E67;
+    --third: #5B8FB9;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
 body{
     padding: 0;
     margin: 0;
@@ -5,7 +20,34 @@ body{
 }
 
 .navbar{
-    background: #03001C;
+    background: var(--bg);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.4rem 7%;
+    border-bottom: 1px solid var(--primary);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+
+.navbar .navbar-nav a:hover {
+    color: var(--primary);
+}
+
+.navbar .navbar-nav a::after{
+    content: '';
+    display: block;
+    padding-bottom: 1rem;
+    border-bottom: 0.1rem solid var(--primary);
+    transform: scaleX(0);
+    transition: 0.2s linear;
+}
+
+.navbar .navbar-nav a:hover::after{
+    transform: scaleX(0.8);
 }
 .nav-link{
     margin-right: 1em !important;
