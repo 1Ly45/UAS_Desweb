@@ -85,10 +85,12 @@ body{
 .nav-link:hover{
     color: #B6EADA;
 }
+.nav-link:visited{
+    color: var(--third);
+}
 .navbar-collapse{
     justify-content: flex-end;
 }
-
 
 .d-flex{
     color: #fff;
@@ -96,7 +98,12 @@ body{
     margin-bottom: 15px;
     background-color: #03001C;
 }
+.map{
+    margin-left: 15%;
+}
 .contacts{
+    position: absolute;
+    
     color: #fff;
 }
 .contacts:hover{
