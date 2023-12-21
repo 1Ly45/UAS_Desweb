@@ -1,14 +1,3 @@
-:root{
-    --bg: #03001C;
-    --primary: #5B8FB9;
-    --second: #301E67;
-    --third: #5B8FB9;
-    --putih: #fff;
-}
-html{
-    scroll-behavior: smooth;
-}
-
 *{
     margin: 0;
     padding: 0;
@@ -16,6 +5,16 @@ html{
     outline: none;
     border: none;
     text-decoration: none;
+}
+:root{
+    --bg: #03001C;
+    --primary: #5B8FB9;
+    --second: #301E67;
+    --third: #5B8FB9;
+}
+
+html{
+    scroll-behavior: smooth;
 }
 
 body {
@@ -25,11 +24,141 @@ body {
     max-width: 100%;
     z-index: 9999;
     text-align: justify;
-    background-color: #fff;
+    margin-top: 5rem;
+}
+main {
+    display: flex;
+    align-items: center;
+    background-image: url('asset/kelas.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+nav{
+    max-width: 100%;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.3rem 7%;
+    background: rgba(3, 0, 28, 0.8);
+    border-bottom: 1px solid var(--third);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+@media only screen and (min-width: 1000px) {
+    .navbar .navbar-logo{
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin-left: 2%;
+        max-width: 40%;
+    }
+}
+
+.navbar .navbar-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.navbar .navbar-logo span{
+    color: var(--primary);
+}
+
+
+.navbar .navbar-extra a{
+    color: #fff;
+    margin: 0 0.5rem;
+}
+
+.navbar .navbar-extra a:hover{
+    color: var(--primary);
+}
+
+.navbar .navbar-nav{
+    margin-right: 5rem;
+}
+.navbar .navbar-nav a:hover {
+    color: var(--primary);
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar .navbar-nav a::after{
+    content: '';
+    display: block;
+    padding-bottom: 0.3rem;
+    border-bottom: 0.1rem solid var(--primary);
+    transform: scaleX(0);
+    transition: 0.2s linear;
+}
+
+.navbar .navbar-nav a:hover::after{
+    transform: scaleX(0.8);
+}
+.nav-link{
+    margin-right: 1em !important;
+}
+.nav-link,
+.navbar-brand{
+    color: #fff;
+    cursor: pointer;
+}
+.nav-link:hover{
+    color: #B6EADA;
+}
+.nav-link:active{
+    color: var(--third);
+}
+.nav-link:visited{
+    color: white;
+}
+.navbar-collapse{
+    justify-content: flex-end;
+}
+.row{
+    background: var(--bg);
+}
+
+#contact{
+    color: white;
+}
+#contact a{
+    color: white;
+}
+footer .credit {
+    background: var(--third);
+    font-size: 0.8rem;
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+footer .credit a{
+    color: var(--bg);
+    font-weight: 700;
+}
+
+header {
+    font-family: 'Poppins Bold', sans-serif;
+    font-size: 8rem;
+    text-shadow:1px 1px 3px rgba(1,1,3,0.5)  ;
+    line-height: 2;
+    margin-top: 0;
+}
+
+header h1 span{
+    color: var(--third);
 }
 
 .content {
-    box-shadow: 0 0 0.3rem var(--primary);
+    box-shadow: 0 0 0.5rem var(--third);
     margin-bottom: 2rem;
 }
 
