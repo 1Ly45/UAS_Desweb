@@ -59,7 +59,7 @@ body{
     background-color: #301E67;
     color: white;
     padding-top: 5%;
-    font-size: 6vw;
+    font-size: 4.5vw;
     padding-bottom: 5%;
 }
 .news{
@@ -71,7 +71,8 @@ body{
     border-radius: 5px;
 }
 .news h5{
-    font-size: 4;
+    margin-top: 2%;
+    font-size: 3vw;
 }
 .news img{
     width: 100%;
@@ -91,4 +92,71 @@ body{
     position: absolute;
     width: 100%;
     height: 100%;
+}
+.alumni{
+    margin: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.box{
+    height: 100%;
+    background-color: #5B8FB9;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 5%;
+    border-radius: 5%;
+    border-top-right-radius: 25vw;
+    border-top-left-radius: 25vw;
+    color: white;
+    font-size: 1vw;
+}
+.box .image{
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 18vw;
+    border-radius: 100%;
+}
+.box .teks{
+    height: 100%;
+}
+.box h5{
+    text-align: center;
+    font-size: 1.5vw;
+}
+.box p{
+    text-align: justify;
+}
+
+@media only screen and (min-width: 768px){
+    .judul{
+        font-size: 6vw;
+    }
+    .news h5{
+        font-size: 1.5vw;
+    }
+}
+@media only screen and (max-width: 767px){
+    .alumni{
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    .box{
+        height: 95%;
+        border-radius: 10vw;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 4%;
+        font-size: 1.7vw;
+        border-top-left-radius:25vw ;
+        border-bottom-left-radius: 24vw ;
+    }
+    .box .image{
+        height: 25vw;
+        width: 30%;
+    }
+    .box h5{
+        text-align: start;
+        font-size: 4vw;
+    }
 }

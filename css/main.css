@@ -131,3 +131,21 @@ footer .credit a{
     color: var(--bg);
     font-weight: 700;
 }
+.map img{
+    width: 50%;
+    height: auto;
+}
+
+@media only screen and (max-width: 576px){
+    html, body{
+        overflow-x: hidden;
+    }
+    .map img{
+        width: 90%;
+    }
+}
+@media only screen and (max-width: 992px){
+    .map img{
+        width: 70%;
+    }
+}
