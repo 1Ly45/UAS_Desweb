@@ -55,7 +55,7 @@ nav{
 .navbar .navbar-logo{
     display: flex;
     align-items: center;
-    justify-content: center
+    justify-content: center;
 }
 .navbar .navbar-logo span{
     color: var(--primary);
